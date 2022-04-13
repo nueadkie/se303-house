@@ -1,5 +1,6 @@
 class House
   def recite
+    1.upto(12).map{ |i| line(i) }.join("\n")
   end
 
   def line(n)
