@@ -4,6 +4,7 @@ class House
   end
 
   def animals_belong_to_phrase
+    "the horse and the hound and the horn that belonged to "
   end
 
   def line(n)
