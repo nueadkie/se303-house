@@ -4,7 +4,7 @@ class House
   end
 
   def farmer_kept_phrase(n = 11)
-    if n == 11
+    if n >= 11
       "the farmer sowing his corn that kept "
     else
       ""
