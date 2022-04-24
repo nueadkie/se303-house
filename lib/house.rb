@@ -3,6 +3,14 @@ class House
     1.upto(12).map{ |i| line(i) }.join("\n")
   end
 
+  def cat_killed_phrase(n = 4)
+    if n >= 4
+      "the cat that killed "
+    else
+      ""
+    end
+  end
+
   def dog_worried_phrase(n = 5)
     if n >= 5
       "the dog that worried "
