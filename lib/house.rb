@@ -70,7 +70,7 @@ class House
     when 4
       "This is the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
     when 5
-      "This is the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+      "This is #{animals_belong_to_phrase(n)}#{farmer_kept_phrase(n)}#{rooster_woke_phrase(n)}#{priest_married_phrase(n)}#{man_kissed_phrase(n)}#{maiden_milked_phrase(n)}#{cow_tossed_phrase(n)}the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
     else
       "This is #{animals_belong_to_phrase(n)}#{farmer_kept_phrase(n)}#{rooster_woke_phrase(n)}#{priest_married_phrase(n)}#{man_kissed_phrase(n)}#{maiden_milked_phrase(n)}#{cow_tossed_phrase(n)}the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
     end
