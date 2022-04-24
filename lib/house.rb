@@ -3,6 +3,14 @@ class House
     1.upto(12).map{ |i| line(i) }.join("\n")
   end
 
+  def maiden_milked_phrase(n = 7)
+    if n >= 7
+      "the maiden all forlorn that milked "
+    else
+      ""
+    end
+  end
+
   def man_kissed_phrase(n = 8)
     if n >= 8
       "the man all tattered and torn that kissed "
