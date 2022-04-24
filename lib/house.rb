@@ -3,6 +3,14 @@ class House
     1.upto(12).map{ |i| line(i) }.join("\n")
   end
 
+  def priest_married_phrase(n = 9)
+    if n >= 9
+      "the priest all shaven and shorn that married "
+    else
+      ""
+    end
+  end
+
   def rooster_woke_phrase(n = 10)
     if n >= 10
       "the rooster that crowed in the morn that woke "
