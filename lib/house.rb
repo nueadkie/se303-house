@@ -4,6 +4,7 @@ class House
   end
 
   def farmer_kept_phrase
+    "the farmer sowing his corn that kept "
   end
 
   def animals_belong_to_phrase(n = 12)
