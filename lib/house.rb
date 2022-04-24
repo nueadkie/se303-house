@@ -4,7 +4,11 @@ class House
   end
 
   def animals_belong_to_phrase(n = 12)
-    "the horse and the hound and the horn that belonged to "
+    if n == 12
+      "the horse and the hound and the horn that belonged to "
+    else
+      ""
+    end
   end
 
   def line(n)
