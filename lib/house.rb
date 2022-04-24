@@ -3,6 +3,14 @@ class House
     1.upto(12).map{ |i| line(i) }.join("\n")
   end
 
+  def rooster_woke_phrase(n = 10)
+    if n >= 10
+      "the rooster that crowed in the morn that woke "
+    else
+      ""
+    end
+  end
+
   def farmer_kept_phrase(n = 11)
     if n >= 11
       "the farmer sowing his corn that kept "
