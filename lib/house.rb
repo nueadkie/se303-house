@@ -3,6 +3,9 @@ class House
     1.upto(12).map{ |i| line(i) }.join("\n")
   end
 
+  def farmer_kept_phrase
+  end
+
   def animals_belong_to_phrase(n = 12)
     if n == 12
       "the horse and the hound and the horn that belonged to "
