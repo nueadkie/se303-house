@@ -81,8 +81,6 @@ class House
       "This is the house that Jack built.\n"
     when 2
       "This is the malt that lay in the house that Jack built.\n"
-    when 3
-      "This is #{animals_belong_to_phrase(n)}#{farmer_kept_phrase(n)}#{rooster_woke_phrase(n)}#{priest_married_phrase(n)}#{man_kissed_phrase(n)}#{maiden_milked_phrase(n)}#{cow_tossed_phrase(n)}#{dog_worried_phrase(n)}#{cat_killed_phrase(n)}the rat that ate the malt that lay in the house that Jack built.\n"
     else
       "This is #{animals_belong_to_phrase(n)}#{farmer_kept_phrase(n)}#{rooster_woke_phrase(n)}#{priest_married_phrase(n)}#{man_kissed_phrase(n)}#{maiden_milked_phrase(n)}#{cow_tossed_phrase(n)}#{dog_worried_phrase(n)}#{cat_killed_phrase(n)}the rat that ate the malt that lay in the house that Jack built.\n"
     end
