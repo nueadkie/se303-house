@@ -3,6 +3,9 @@ class House
     1.upto(12).map{ |i| line(i) }.join("\n")
   end
 
+  def animals_belong_to_phrase
+  end
+
   def line(n)
     case n
     when 1
