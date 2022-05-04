@@ -7,6 +7,14 @@ class House
     "This is #{animals_belong_to_phrase(n)}#{farmer_kept_phrase(n)}#{rooster_woke_phrase(n)}#{priest_married_phrase(n)}#{man_kissed_phrase(n)}#{maiden_milked_phrase(n)}#{cow_tossed_phrase(n)}#{dog_worried_phrase(n)}#{cat_killed_phrase(n)}#{rat_ate_phrase(n)}#{malt_lay_phrase(n)}the house that Jack built.\n"
   end
 
+  def house_built_phrase(n = 1)
+    if n >= 1
+      "the house that Jack built"
+    else
+      ""
+    end
+  end
+
   def malt_lay_phrase(n = 2)
     if n >= 2
       "the malt that lay in "
