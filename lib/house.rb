@@ -7,6 +7,8 @@ class House
     "This is #{animals_belong_to_phrase(n)}#{farmer_kept_phrase(n)}#{rooster_woke_phrase(n)}#{priest_married_phrase(n)}#{man_kissed_phrase(n)}#{maiden_milked_phrase(n)}#{cow_tossed_phrase(n)}#{dog_worried_phrase(n)}#{cat_killed_phrase(n)}#{rat_ate_phrase(n)}#{malt_lay_phrase(n)}#{house_built_phrase(n)}.\n"
   end
 
+  private
+
   def house_built_phrase(n = 1)
     if n >= 1
       "the house that Jack built"
