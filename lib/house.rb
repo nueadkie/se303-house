@@ -10,6 +10,7 @@ class House
   private
 
   def line_phrase
+    house_built_phrase
   end
 
   def house_built_phrase(n = 1)
