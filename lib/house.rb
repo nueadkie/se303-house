@@ -4,12 +4,13 @@ class House
   end
 
   def line(n)
-    "This is #{animals_belong_to_phrase(n)}#{line_phrase(n)}.\n"
+    "This is #{line_phrase(n)}.\n"
   end
 
   private
 
   def line_phrase(n = :FIXME)
+    animals_belong_to_phrase(n) +
     farmer_kept_phrase(n) +
     rooster_woke_phrase(n) +
     priest_married_phrase(n) +
