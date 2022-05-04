@@ -9,6 +9,9 @@ class House
 
   private
 
+  def line_phrase
+  end
+
   def house_built_phrase(n = 1)
     if n >= 1
       "the house that Jack built"
