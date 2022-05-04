@@ -10,7 +10,7 @@ class House
   private
 
   def line_phrase(n = :FIXME)
-    house_built_phrase
+    house_built_phrase(n)
   end
 
   def house_built_phrase(n = 1)
