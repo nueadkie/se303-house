@@ -9,7 +9,7 @@ class House
 
   private
 
-  def line_phrase
+  def line_phrase(n = :FIXME)
     house_built_phrase
   end
 
