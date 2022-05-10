@@ -9,6 +9,9 @@ class House
 
   private
 
+  def phrases
+  end
+
   def line_phrase(n = :FIXME)
     animals_belong_to_phrase(n) +
     farmer_kept_phrase(n) +
