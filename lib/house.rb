@@ -10,7 +10,9 @@ class House
   private
 
   def phrases
-    []
+    [
+      nil
+    ]
   end
 
   def line_phrase(n = :FIXME)
