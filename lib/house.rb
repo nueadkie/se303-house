@@ -27,7 +27,8 @@ class House
     cat_killed_phrase(n) +
     rat_ate_phrase(n) +
     malt_lay_phrase(n) +
-    house_built_phrase(n)
+    house_built_phrase(n) +
+    n.downto(1).map{ |i| phrases[i] }.join()
   end
 
   def house_built_phrase(n = 1)
