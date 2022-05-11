@@ -18,6 +18,7 @@ class House
       "the cat that killed ",
       "the dog that worried ",
       "the cow with the crumpled horn that tossed ",
+      "the maiden all forlorn that milked ",
     ]
   end
 
@@ -27,7 +28,6 @@ class House
     rooster_woke_phrase(n) +
     priest_married_phrase(n) +
     man_kissed_phrase(n) +
-    maiden_milked_phrase(n) +
     n.downto(1).map{ |i| phrases[i] }.join()
   end
 
