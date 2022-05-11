@@ -17,6 +17,7 @@ class House
       "the rat that ate ",
       "the cat that killed ",
       "the dog that worried ",
+      "the cow with the crumpled horn that tossed ",
     ]
   end
 
@@ -27,7 +28,6 @@ class House
     priest_married_phrase(n) +
     man_kissed_phrase(n) +
     maiden_milked_phrase(n) +
-    cow_tossed_phrase(n) +
     n.downto(1).map{ |i| phrases[i] }.join()
   end
 
