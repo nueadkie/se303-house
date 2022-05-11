@@ -9,7 +9,7 @@ class House
 
   private
 
-  def phrases_without_trailing_space
+  def phrases
     [
       nil,
       "the house that Jack built",
@@ -28,7 +28,7 @@ class House
   end
 
   def line_phrase(n = :FIXME)
-    n.downto(1).map{ |i| phrases_without_trailing_space[i] }.join(" ")
+    n.downto(1).map{ |i| phrases[i] }.join(" ")
   end
 
 end
