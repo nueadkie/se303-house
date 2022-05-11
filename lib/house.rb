@@ -27,7 +27,7 @@ class House
     ]
   end
 
-  def line_phrase(n = :FIXME)
+  def line_phrase(n)
     n.downto(1).map{ |i| phrases[i] }.join(" ")
   end
 
