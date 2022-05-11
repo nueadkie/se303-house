@@ -22,12 +22,12 @@ class House
       "the man all tattered and torn that kissed ",
       "the priest all shaven and shorn that married ",
       "the rooster that crowed in the morn that woke ",
+      "the farmer sowing his corn that kept ",
     ]
   end
 
   def line_phrase(n = :FIXME)
     animals_belong_to_phrase(n) +
-    farmer_kept_phrase(n) +
     n.downto(1).map{ |i| phrases[i] }.join()
   end
 
