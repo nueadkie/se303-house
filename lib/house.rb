@@ -31,14 +31,6 @@ class House
     n.downto(1).map{ |i| phrases[i] }.join()
   end
 
-  def cow_tossed_phrase(n = 6)
-    if n >= 6
-      "the cow with the crumpled horn that tossed "
-    else
-      ""
-    end
-  end
-
   def maiden_milked_phrase(n = 7)
     if n >= 7
       "the maiden all forlorn that milked "
