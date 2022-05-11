@@ -15,6 +15,7 @@ class House
       "the house that Jack built",
       "the malt that lay in ",
       "the rat that ate ",
+      "the cat that killed ",
     ]
   end
 
@@ -27,7 +28,6 @@ class House
     maiden_milked_phrase(n) +
     cow_tossed_phrase(n) +
     dog_worried_phrase(n) +
-    cat_killed_phrase(n) +
     n.downto(1).map{ |i| phrases[i] }.join()
   end
 
