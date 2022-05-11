@@ -16,6 +16,7 @@ class House
       "the malt that lay in ",
       "the rat that ate ",
       "the cat that killed ",
+      "the dog that worried ",
     ]
   end
 
@@ -27,7 +28,6 @@ class House
     man_kissed_phrase(n) +
     maiden_milked_phrase(n) +
     cow_tossed_phrase(n) +
-    dog_worried_phrase(n) +
     n.downto(1).map{ |i| phrases[i] }.join()
   end
 
