@@ -31,14 +31,6 @@ class House
     n.downto(1).map{ |i| phrases[i] }.join()
   end
 
-  def malt_lay_phrase(n = 2)
-    if n >= 2
-      "the malt that lay in "
-    else
-      ""
-    end
-  end
-
   def rat_ate_phrase(n = 3)
     if n >= 3
       "the rat that ate "
