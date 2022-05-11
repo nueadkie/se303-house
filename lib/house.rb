@@ -31,14 +31,6 @@ class House
     n.downto(1).map{ |i| phrases[i] }.join()
   end
 
-  def farmer_kept_phrase(n = 11)
-    if n >= 11
-      "the farmer sowing his corn that kept "
-    else
-      ""
-    end
-  end
-
   def animals_belong_to_phrase(n = 12)
     if n == 12
       "the horse and the hound and the horn that belonged to "
