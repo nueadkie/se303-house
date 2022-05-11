@@ -46,7 +46,6 @@ class House
   end
 
   def line_phrase(n = :FIXME)
-    n.downto(1).map{ |i| phrases[i] }.join()
     n.downto(1).map{ |i| phrases_without_trailing_space[i] }.join(" ")
   end
 
