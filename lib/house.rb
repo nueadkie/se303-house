@@ -12,7 +12,8 @@ class House
   def phrases
     [
       nil,
-      "the house that Jack built"
+      "the house that Jack built",
+      "the malt that lay in "
     ]
   end
 
@@ -27,7 +28,6 @@ class House
     dog_worried_phrase(n) +
     cat_killed_phrase(n) +
     rat_ate_phrase(n) +
-    malt_lay_phrase(n) +
     n.downto(1).map{ |i| phrases[i] }.join()
   end
 
