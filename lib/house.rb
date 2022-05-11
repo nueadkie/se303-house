@@ -20,6 +20,7 @@ class House
       "the cow with the crumpled horn that tossed ",
       "the maiden all forlorn that milked ",
       "the man all tattered and torn that kissed ",
+      "the priest all shaven and shorn that married ",
     ]
   end
 
@@ -27,7 +28,6 @@ class House
     animals_belong_to_phrase(n) +
     farmer_kept_phrase(n) +
     rooster_woke_phrase(n) +
-    priest_married_phrase(n) +
     n.downto(1).map{ |i| phrases[i] }.join()
   end
 
