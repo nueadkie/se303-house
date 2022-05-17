@@ -94,4 +94,106 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
     assert_equal expected, House.new.recite
   end
 
+  def test_pirate_line_1
+    skip
+    expected = "Thar be the house that Jack built.\n"
+    assert_equal expected, House.new.line(1)
+  end
+
+  def test_pirate_line_2
+    skip
+    expected = "Thar be the malt that lay in the house that Jack built.\n"
+    assert_equal expected, House.new.line(2)
+  end
+
+  def test_pirate_line_3
+    skip
+    expected = "Thar be the rat that ate the malt that lay in the house that Jack built.\n"
+    assert_equal expected, House.new.line(3)
+  end
+
+  def test_pirate_line_4
+    skip
+    expected = "Thar be the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+    assert_equal expected, House.new.line(4)
+  end
+
+  def test_pirate_line_5
+    skip
+    expected = "Thar be the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+    assert_equal expected, House.new.line(5)
+  end
+
+  def test_pirate_line_6
+    skip
+    expected = "Thar be the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+    assert_equal expected, House.new.line(6)
+  end
+
+  def test_pirate_line_7
+    skip
+    expected = "Thar be the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+    assert_equal expected, House.new.line(7)
+  end
+
+  def test_pirate_line_8
+    skip
+    expected = "Thar be the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+    assert_equal expected, House.new.line(8)
+  end
+
+  def test_pirate_line_9
+    skip
+    expected = "Thar be the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+    assert_equal expected, House.new.line(9)
+  end
+
+  def test_pirate_line_10
+    skip
+    expected = "Thar be the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+    assert_equal expected, House.new.line(10)
+  end
+
+  def test_pirate_line_11
+    skip
+    expected = "Thar be the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+    assert_equal expected, House.new.line(11)
+  end
+
+  def test_pirate_line_12
+    skip
+    expected = "Thar be the horse and the hound and the horn that belonged to the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+    assert_equal expected, House.new.line(12)
+  end
+
+  def test_all_the_pirate_lines
+    skip
+    expected = <<-TEXT
+Thar be the house that Jack built.
+
+Thar be the malt that lay in the house that Jack built.
+
+Thar be the rat that ate the malt that lay in the house that Jack built.
+
+Thar be the cat that killed the rat that ate the malt that lay in the house that Jack built.
+
+Thar be the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.
+
+Thar be the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.
+
+Thar be the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.
+
+Thar be the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.
+
+Thar be the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.
+
+Thar be the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.
+
+Thar be the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.
+
+Thar be the horse and the hound and the horn that belonged to the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.
+    TEXT
+    assert_equal expected, House.new.recite
+  end
+
 end
