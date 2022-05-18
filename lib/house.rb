@@ -16,7 +16,11 @@ class House
   private
 
   def line_opener
-    "This is"
+    if pirate
+      "Thar be"
+    else
+      "This is"
+    end
   end
 
   def phrases
