@@ -1,7 +1,8 @@
 class House
   attr_reader :pirate
 
-  def initialize
+  def initialize(pirate = false)
+    @pirate = pirate
   end
   
   def recite
