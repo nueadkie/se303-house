@@ -4,7 +4,7 @@ class House
   end
 
   def line(n)
-    "This is #{line_phrase(n)}.\n"
+    "#{line_opener} #{line_phrase(n)}.\n"
   end
 
   private
