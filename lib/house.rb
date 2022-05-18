@@ -10,6 +10,7 @@ class House
   private
 
   def line_opener
+    "This is"
   end
 
   def phrases
