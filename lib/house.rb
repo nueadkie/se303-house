@@ -9,6 +9,9 @@ class House
 
   private
 
+  def line_opener
+  end
+
   def phrases
     [
       nil,
