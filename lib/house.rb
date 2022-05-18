@@ -1,4 +1,6 @@
 class House
+  attr_reader :pirate
+  
   def recite
     1.upto(12).map{ |i| line(i) }.join("\n")
   end
