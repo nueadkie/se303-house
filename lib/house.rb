@@ -23,7 +23,7 @@ class House
     end
   end
 
-  def phrases_without_nil
+  def phrases
     [
       "the house that Jack built",
       "the malt that lay in",
@@ -41,7 +41,7 @@ class House
   end
 
   def line_phrase(n)
-    phrases_without_nil.first(n).reverse.join(" ")
+    phrases.first(n).reverse.join(" ")
   end
 
 end
