@@ -60,6 +60,7 @@ class House
 
   def line_phrase(n)
     n.downto(1).map{ |i| phrases[i] }.join(" ")
+    phrases_without_nil.first(n).reverse.join(" ")
   end
 
 end
