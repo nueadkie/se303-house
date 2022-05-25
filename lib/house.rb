@@ -3,6 +3,7 @@ class House
 
   def initialize(pirate = false, line_opener: "This is")
     @pirate = pirate
+    @line_opener = line_opener
   end
   
   def recite
