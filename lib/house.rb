@@ -16,14 +16,6 @@ class House
 
   private
 
-  def line_opener
-    if pirate
-      "Thar be"
-    else
-      "This is"
-    end
-  end
-
   def phrases
     [
       "the house that Jack built",
