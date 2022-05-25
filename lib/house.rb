@@ -1,5 +1,5 @@
 class House
-  attr_reader :pirate
+  attr_reader :pirate, :line_opener
 
   def initialize(pirate = false)
     @pirate = pirate
