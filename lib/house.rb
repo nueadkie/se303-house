@@ -42,7 +42,7 @@ class House
 end
 
 class ShuffledHouse < House
-  def phrases
+  def built_phrases
     super.shuffle
   end
 end
