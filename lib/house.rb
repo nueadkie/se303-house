@@ -46,6 +46,7 @@ class House
       "the farmer sowing his corn that kept",
       "the horse and the hound and the horn that belonged to"
     ]
+    built_phrases.prepend("the house that Jack built")
   end
 
   def line_phrase(n)
