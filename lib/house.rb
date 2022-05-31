@@ -37,3 +37,6 @@ class House
   end
 
 end
+
+class ShuffledHouse < House
+end
