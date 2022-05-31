@@ -39,4 +39,7 @@ class House
 end
 
 class ShuffledHouse < House
+  def phrases
+    super.shuffle
+  end
 end
