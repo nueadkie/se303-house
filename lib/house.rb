@@ -44,6 +44,6 @@ end
 
 class ShuffledHouse < House
   def built_phrases
-    super.shuffle
+    super.shuffle(random: Random.new(seed))
   end
 end
