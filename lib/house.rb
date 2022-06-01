@@ -1,5 +1,5 @@
 class House
-  attr_reader :line_opener
+  attr_reader :line_opener, :seed
 
   def initialize(line_opener: "This is")
     @line_opener = line_opener
