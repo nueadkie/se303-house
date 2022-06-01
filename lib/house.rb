@@ -1,8 +1,9 @@
 class House
   attr_reader :line_opener, :seed
 
-  def initialize(line_opener: "This is")
+  def initialize(line_opener: "This is", seed: Random.new_seed)
     @line_opener = line_opener
+    @seed = seed
   end
   
   def recite
