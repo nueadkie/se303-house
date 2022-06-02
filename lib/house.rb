@@ -49,6 +49,7 @@ class House
   end
 
   def built_phrases
+    nouns.zip(verbs).map{ |noun, verb| "the #{noun} that #{verb}" }
     [
       "the #{nouns[0]} that #{verbs[0]}",
       "the #{nouns[1]} that #{verbs[1]}",
