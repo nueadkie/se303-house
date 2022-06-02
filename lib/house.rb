@@ -33,6 +33,9 @@ class House
   end
 
   def verbs
+    [
+      "lay in"
+    ]
   end
 
   def built_phrases
