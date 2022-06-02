@@ -16,6 +16,9 @@ class House
 
   private
 
+  def nouns
+  end
+
   def built_phrases
     [
       "the malt that lay in",
