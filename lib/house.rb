@@ -24,7 +24,7 @@ class House
 
   def built_phrases
     [
-      "the malt that lay in",
+      "the #{nouns[0]} that lay in",
       "the rat that ate",
       "the cat that killed",
       "the dog that worried",
