@@ -72,4 +72,8 @@ class RandomizedHouse < House
   def nouns
     super.shuffle(random: Random.new(seed))
   end
+
+  def verbs
+    super
+  end
 end
