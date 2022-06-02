@@ -32,6 +32,9 @@ class House
     ]
   end
 
+  def verbs
+  end
+
   def built_phrases
     [
       "the #{nouns[0]} that lay in",
