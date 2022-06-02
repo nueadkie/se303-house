@@ -34,7 +34,17 @@ class House
 
   def verbs
     [
-      "lay in"
+      "lay in",
+      "ate",
+      "killed",
+      "worried",
+      "tossed",
+      "milked",
+      "kissed",
+      "married",
+      "woke",
+      "kept",
+      "belonged to"
     ]
   end
 
