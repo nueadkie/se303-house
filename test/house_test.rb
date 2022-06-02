@@ -276,4 +276,38 @@ This is the maiden all forlorn that milked the rooster that crowed in the morn t
     assert_equal expected, ShuffledHouse.new(seed: 1).recite
   end
 
+  # The seed is the same as above and the noun shuffler uses the seed 
+  # directly, while the verb shuffler uses the seed's successor - 
+  # effectively, the nouns are the same as the shuffled phrases above, but 
+  # the verbs are randomized differently.
+  def test_all_the_random_lines
+    skip
+    expected = <<-TEXT
+This is the house that Jack built.
+
+This is the cat that tossed the house that Jack built.
+
+This is the dog that ate the cat that tossed the house that Jack built.
+
+This is the cow with the crumpled horn that kept the dog that ate the cat that tossed the house that Jack built.
+
+This is the farmer sowing his corn that milked the cow with the crumpled horn that kept the dog that ate the cat that tossed the house that Jack built.
+
+This is the rat that lay in the farmer sowing his corn that milked the cow with the crumpled horn that kept the dog that ate the cat that tossed the house that Jack built.
+
+This is the man all tattered and torn that married the rat that lay in the farmer sowing his corn that milked the cow with the crumpled horn that kept the dog that ate the cat that tossed the house that Jack built.
+
+This is the malt that killed the man all tattered and torn that married the rat that lay in the farmer sowing his corn that milked the cow with the crumpled horn that kept the dog that ate the cat that tossed the house that Jack built.
+
+This is the priest all shaven and shorn that worried the malt that killed the man all tattered and torn that married the rat that lay in the farmer sowing his corn that milked the cow with the crumpled horn that kept the dog that ate the cat that tossed the house that Jack built.
+
+This is the horse and the hound and the horn that kissed the priest all shaven and shorn that worried the malt that killed the man all tattered and torn that married the rat that lay in the farmer sowing his corn that milked the cow with the crumpled horn that kept the dog that ate the cat that tossed the house that Jack built.
+
+This is the rooster that crowed in the morn that belonged to the horse and the hound and the horn that kissed the priest all shaven and shorn that worried the malt that killed the man all tattered and torn that married the rat that lay in the farmer sowing his corn that milked the cow with the crumpled horn that kept the dog that ate the cat that tossed the house that Jack built.
+
+This is the maiden all forlorn that woke the rooster that crowed in the morn that belonged to the horse and the hound and the horn that kissed the priest all shaven and shorn that worried the malt that killed the man all tattered and torn that married the rat that lay in the farmer sowing his corn that milked the cow with the crumpled horn that kept the dog that ate the cat that tossed the house that Jack built.
+    TEXT
+    assert_equal expected, RandomizedHouse.new(seed: 1).recite
+  end
+
 end
