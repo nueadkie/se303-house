@@ -74,6 +74,6 @@ class RandomizedHouse < House
   end
 
   def verbs
-    super
+    super.shuffle(random: Random.new(seed))
   end
 end
