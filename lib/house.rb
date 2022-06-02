@@ -67,3 +67,6 @@ class ShuffledHouse < House
     super.shuffle(random: Random.new(seed))
   end
 end
+
+class RandomizedHouse < House
+end
