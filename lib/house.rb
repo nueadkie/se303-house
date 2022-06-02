@@ -69,4 +69,7 @@ class ShuffledHouse < House
 end
 
 class RandomizedHouse < House
+  def nouns
+    super
+  end
 end
