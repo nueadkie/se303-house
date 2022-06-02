@@ -17,6 +17,9 @@ class House
   private
 
   def nouns
+    [
+      "malt"
+    ]
   end
 
   def built_phrases
