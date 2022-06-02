@@ -40,7 +40,7 @@ class House
 
   def built_phrases
     [
-      "the #{nouns[0]} that lay in",
+      "the #{nouns[0]} that #{verbs[0]}",
       "the #{nouns[1]} that ate",
       "the #{nouns[2]} that killed",
       "the #{nouns[3]} that worried",
