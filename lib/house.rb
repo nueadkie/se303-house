@@ -51,16 +51,16 @@ class House
   def built_phrases
     [
       "the #{nouns[0]} that #{verbs[0]}",
-      "the #{nouns[1]} that ate",
-      "the #{nouns[2]} that killed",
-      "the #{nouns[3]} that worried",
-      "the #{nouns[4]} that tossed",
-      "the #{nouns[5]} that milked",
-      "the #{nouns[6]} that kissed",
-      "the #{nouns[7]} that married",
-      "the #{nouns[8]} that woke",
-      "the #{nouns[9]} that kept",
-      "the #{nouns[10]} that belonged to"
+      "the #{nouns[1]} that #{verbs[1]}",
+      "the #{nouns[2]} that #{verbs[2]}",
+      "the #{nouns[3]} that #{verbs[3]}",
+      "the #{nouns[4]} that #{verbs[4]}",
+      "the #{nouns[5]} that #{verbs[5]}",
+      "the #{nouns[6]} that #{verbs[6]}",
+      "the #{nouns[7]} that #{verbs[7]}",
+      "the #{nouns[8]} that #{verbs[8]}",
+      "the #{nouns[9]} that #{verbs[9]}",
+      "the #{nouns[10]} that #{verbs[10]}"
     ]
   end
 
