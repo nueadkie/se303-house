@@ -70,6 +70,6 @@ end
 
 class RandomizedHouse < House
   def nouns
-    super
+    super.shuffle(random: Random.new(seed))
   end
 end
