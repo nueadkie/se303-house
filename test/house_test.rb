@@ -281,7 +281,6 @@ This is the maiden all forlorn that milked the rooster that crowed in the morn t
   # effectively, the nouns are the same as the shuffled phrases above, but 
   # the verbs are randomized differently.
   def test_all_the_random_lines
-    skip
     expected = <<-TEXT
 This is the house that Jack built.
 
