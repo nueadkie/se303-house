@@ -35,16 +35,16 @@ class House
   def built_phrases
     [
       "the #{nouns[0]} that lay in",
-      "the rat that ate",
-      "the cat that killed",
-      "the dog that worried",
-      "the cow with the crumpled horn that tossed",
-      "the maiden all forlorn that milked",
-      "the man all tattered and torn that kissed",
-      "the priest all shaven and shorn that married",
-      "the rooster that crowed in the morn that woke",
-      "the farmer sowing his corn that kept",
-      "the horse and the hound and the horn that belonged to"
+      "the #{nouns[1]} that ate",
+      "the #{nouns[2]} that killed",
+      "the #{nouns[3]} that worried",
+      "the #{nouns[4]} that tossed",
+      "the #{nouns[5]} that milked",
+      "the #{nouns[6]} that kissed",
+      "the #{nouns[7]} that married",
+      "the #{nouns[8]} that woke",
+      "the #{nouns[9]} that kept",
+      "the #{nouns[10]} that belonged to"
     ]
   end
 
