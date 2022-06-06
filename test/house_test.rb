@@ -276,6 +276,35 @@ This is the maiden all forlorn that milked the rooster that crowed in the morn t
     assert_equal expected, ShuffledHouse.new(seed: 1).recite
   end
 
+  def test_all_the_shuffled_pirate_lines
+    expected = <<-TEXT
+Thar be the house that Jack built.
+
+Thar be the cat that killed the house that Jack built.
+
+Thar be the dog that worried the cat that killed the house that Jack built.
+
+Thar be the cow with the crumpled horn that tossed the dog that worried the cat that killed the house that Jack built.
+
+Thar be the farmer sowing his corn that kept the cow with the crumpled horn that tossed the dog that worried the cat that killed the house that Jack built.
+
+Thar be the rat that ate the farmer sowing his corn that kept the cow with the crumpled horn that tossed the dog that worried the cat that killed the house that Jack built.
+
+Thar be the man all tattered and torn that kissed the rat that ate the farmer sowing his corn that kept the cow with the crumpled horn that tossed the dog that worried the cat that killed the house that Jack built.
+
+Thar be the malt that lay in the man all tattered and torn that kissed the rat that ate the farmer sowing his corn that kept the cow with the crumpled horn that tossed the dog that worried the cat that killed the house that Jack built.
+
+Thar be the priest all shaven and shorn that married the malt that lay in the man all tattered and torn that kissed the rat that ate the farmer sowing his corn that kept the cow with the crumpled horn that tossed the dog that worried the cat that killed the house that Jack built.
+
+Thar be the horse and the hound and the horn that belonged to the priest all shaven and shorn that married the malt that lay in the man all tattered and torn that kissed the rat that ate the farmer sowing his corn that kept the cow with the crumpled horn that tossed the dog that worried the cat that killed the house that Jack built.
+
+Thar be the rooster that crowed in the morn that woke the horse and the hound and the horn that belonged to the priest all shaven and shorn that married the malt that lay in the man all tattered and torn that kissed the rat that ate the farmer sowing his corn that kept the cow with the crumpled horn that tossed the dog that worried the cat that killed the house that Jack built.
+
+Thar be the maiden all forlorn that milked the rooster that crowed in the morn that woke the horse and the hound and the horn that belonged to the priest all shaven and shorn that married the malt that lay in the man all tattered and torn that kissed the rat that ate the farmer sowing his corn that kept the cow with the crumpled horn that tossed the dog that worried the cat that killed the house that Jack built.
+    TEXT
+    assert_equal expected, ShuffledHouse.new(line_opener: "Thar be", seed: 1).recite
+  end
+
   # The seed is the same as above and the noun shuffler uses the seed 
   # directly, while the verb shuffler uses the seed's successor - 
   # effectively, the nouns are the same as the shuffled phrases above, but 
